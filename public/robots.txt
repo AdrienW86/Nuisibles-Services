@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.nuisibles-services.fr
+
+# Sitemaps
+Sitemap: https://www.nuisibles-services/sitemap.xml

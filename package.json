@@ -1,0 +1,29 @@
+{
+  "name": "service-nuisibles",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
+    "@vercel/analytics": "^1.5.0",
+    "framer-motion": "^12.0.6",
+    "next": "^14.2.23",
+    "next-sitemap": "^4.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.55.0",
+    "react-intersection-observer": "^9.15.1",
+    "resend": "^6.12.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.3.0"
+  }
+}

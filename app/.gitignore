@@ -1,0 +1,28 @@
+# Dépendances
+/node_modules
+/.pnp
+.pnp.js
+
+# Fichiers de build Next.js
+/.next/
+/out/
+
+# Variables d'environnement locales (NE JAMAIS PARTAGER)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers système et IDE
+.DS_Store
+*.pem
+.eslintcache
+.vercel
+.vscode/
+.idea/
+
+# Fichiers de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
