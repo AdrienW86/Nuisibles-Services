@@ -1,8 +1,7 @@
 {
   "/page": "app/page.js",
-  "/pictures/page": "app/pictures/page.js",
-  "/api/contact/route": "app/api/contact/route.js",
   "/desinsectisation/page": "app/desinsectisation/page.js",
   "/reseaux-sociaux/page": "app/reseaux-sociaux/page.js",
+  "/pictures/page": "app/pictures/page.js",
   "/contact/page": "app/contact/page.js"
 }
