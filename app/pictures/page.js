@@ -1,4 +1,4 @@
-import Gallery from '@/components/Gallery';
+import Gallery from "@/components/Gallery"
 
 export const metadata = {
   title: "Nos interventions en images - Radikal 3D",
