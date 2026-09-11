@@ -1,7 +1,7 @@
-import Banner from '@/components/Banner/Banner'
-import Equipment from '@/components/Equipment/Equipment'
-import Services from '@/components/Services/Services'
-import Description from '@/components/Description/Description'
+import Banner from '@/components/Banner'
+import Equipment from '@/components/Equipment'
+import Services from '@/components/Services'
+import Description from '@/components/Description'
 
 export const metadata = {
   title: "Nuisibles Services - Expert en extermination de nuisibles à Perpignan",

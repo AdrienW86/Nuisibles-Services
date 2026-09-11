@@ -1,4 +1,4 @@
-import Gallery from '@/components/Gallery/Gallery';
+import Gallery from '@/components/Gallery';
 
 export const metadata = {
   title: "Nos interventions en images - Radikal 3D",
@@ -7,9 +7,7 @@ export const metadata = {
 
 export default function Pictures() {
   return (
-    // pt-28 : laisse l'espace nécessaire sous le Header fixe
-    // max-w-7xl : aligne proprement le contenu de la galerie avec le reste du site
-    <main className="w-full min-h-screen bg-white pt-28 pb-16 px-4 md:px-8 font-sans text-gray-800">
+    <main className="w-full min-h-screen bg-white pt-8 pb-16 px-4 md:px-8 font-sans text-gray-800">
       <div className="max-w-7xl mx-auto">
         
         {/* TITRE PRINCIPAL DE LA PAGE */}

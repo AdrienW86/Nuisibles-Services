@@ -1,4 +1,4 @@
-import About from '@/components/About/About';
+import About from '@/components/About';
 
 export const metadata = {
   title: "L'entreprise - Nuisibles Services",
@@ -7,9 +7,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    // pt-20 : évite que le haut de la Banner soit masqué par ton Header fixe
-    // min-h-screen : empêche le footer de flotter au milieu si le contenu est court
-    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden">
+    <main className="w-full min-h-screen bg-white overflow-x-hidden">
       <About />     
     </main>
   );

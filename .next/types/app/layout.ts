@@ -1,4 +1,4 @@
-// File: /Users/codev/Nuisibles-Services/app/layout.js
+// File: /Users/codev/Sites Web/Nuisibles/Nuisibles-Services/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,4 @@
-import Menu from '@/components/Menu/Menu';
+import Menu from '@/components/Menu';
 
 export const metadata = {
   title: "Dépigeonnage Pyrénées-Orientales - Nuisibles Services",
@@ -40,9 +40,7 @@ const depigeonnageContent = {
 
 export default function Page() {
   return (
-    // pt-20 : descend le contenu pour ne pas chevaucher le Header fixe
-    // min-h-screen : aligne correctement le footer en bas de page
-    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden"> 
+    <main className="w-full min-h-screen bg-white overflow-x-hidden"> 
       <Menu {...depigeonnageContent} backgroundImage="/pigeons.png" />
     </main>
   );

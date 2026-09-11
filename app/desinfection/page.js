@@ -1,4 +1,4 @@
-import Menu from '@/components/Menu/Menu';
+import Menu from '@/components/Menu';
 
 export const metadata = {
   title: "Désinfection à Perpignan - Traitement virus, bactéries et champignons - Nuisibles Services",
@@ -41,9 +41,7 @@ const desinfectionContent = {
 
 export default function Page() {
   return (
-    // min-h-screen : force la page à prendre toute la hauteur de l'écran pour éviter que le footer remonte s'il y a peu de texte
-    // pt-20 : décale le contenu vers le bas pour ne pas qu'il soit caché derrière le Header fixe
-    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden"> 
+    <main className="w-full min-h-screen bg-white overflow-x-hidden"> 
       <Menu {...desinfectionContent} backgroundImage="/desinfection.png" />
     </main>
   );

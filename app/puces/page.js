@@ -1,4 +1,4 @@
-import Menu from '@/components/Menu/Menu';
+import Menu from '@/components/Menu';
 
 export const metadata = {
   title: "Traitement Punaises de lits à Perpignan - Nuisibles Services",
@@ -41,9 +41,8 @@ const punaisesContent = {
 
 export default function Page() {
   return (
-    // pt-20 : décale le contenu vers le bas pour compenser la hauteur du Header fixe
-    // min-h-screen : empêche le footer de remonter si l'écran est très grand
-    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden"> 
+    
+    <main className="w-full min-h-screen bg-white overflow-x-hidden"> 
       <Menu {...punaisesContent} backgroundImage="/punaises.png" />
     </main>
   );

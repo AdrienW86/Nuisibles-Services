@@ -5,8 +5,7 @@ export const metadata = {
 
 export default function MentionsLegales() {
   return (
-    // pt-28 : garantit que le texte démarre bien en dessous du Header fixe sur tous les écrans
-    <main className="w-full min-h-screen bg-gray-50 pt-28 pb-16 px-4 md:px-8 font-sans text-gray-800">
+    <main className="w-full min-h-screen bg-gray-50 pt-12 pb-16 px-4 md:px-8 font-sans text-gray-800">
       <div className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
         
         {/* TITRE PRINCIPAL */}

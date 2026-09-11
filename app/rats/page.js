@@ -1,4 +1,4 @@
-import Menu from '@/components/Menu/Menu';
+import Menu from '@/components/Menu';
 
 export const metadata = {
   title: "Dératisation à Perpignan - Nuisibles Services",
@@ -41,7 +41,7 @@ const deratisationContent = {
 
 export default function Page() {
   return (
-    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden">
+    <main className="w-full min-h-screen bg-white overflow-x-hidden">
       <Menu {...deratisationContent} backgroundImage="/deratisation.png" />
     </main>
   );

@@ -1,5 +1,5 @@
-import Map from '@/components/Map/Map';
-import Form from '@/components/Form/Form';
+import Map from '@/components/Map';
+import Form from '@/components/Form';
 
 export const metadata = {
   title: "Nous contacter - Nuisibles Services",
@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     // pt-28 : donne de l'espace pour que le titre h1 commence bien sous le Header fixe
     // bg-gray-50 : optionnel, apporte un fond légèrement grisé très propre pour faire ressortir les blocs blancs
-    <main className="w-full min-h-screen bg-gray-50 pt-28 pb-16 px-4 md:px-8 font-sans text-gray-800">
+    <main className="w-full min-h-screen bg-gray-50 pt-8 pb-16 px-4 md:px-8 font-sans text-gray-800">
       <div className="max-w-6xl mx-auto">
         
         {/* TITRE PRINCIPAL DE LA PAGE */}

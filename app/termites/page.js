@@ -1,4 +1,4 @@
-import Menu from '@/components/Menu/Menu';
+import Menu from '@/components/Menu';
 
 export const metadata = {
   title: "Traitement termites à Perpignan - Nuisibles Services",
@@ -41,9 +41,7 @@ const termitesContent = {
 
 export default function Page() {
   return (
-    // pt-20 : descend le contenu pour libérer de l'espace sous le Header fixe
-    // min-h-screen : force la page à occuper toute la hauteur de l'écran pour caler le footer en bas
-    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden">
+    <main className="w-full min-h-screen bg-white overflow-x-hidden">
       <Menu {...termitesContent} backgroundImage="/termites.jpg" />
     </main>
   );

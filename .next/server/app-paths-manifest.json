@@ -1,4 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/desinsectisation/page": "app/desinsectisation/page.js"
+  "/page": "app/page.js",
+  "/pictures/page": "app/pictures/page.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/desinsectisation/page": "app/desinsectisation/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/contact/page": "app/contact/page.js"
 }

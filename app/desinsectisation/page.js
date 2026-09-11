@@ -1,4 +1,4 @@
-import Menu from '@/components/Menu/Menu';
+import Menu from '@/components/Menu';
 
 export const metadata = {
   title: "Désinsectisation à Perpignan - Traitement insectes nuisibles - Nuisibles Services",
@@ -41,9 +41,7 @@ const desinsectisationContent = {
 
 export default function Page() {
   return (
-    // min-h-screen : empêche le footer de flotter au milieu si le contenu est court
-    // pt-20 : évite que le haut de la Banner soit masqué par ton Header fixe
-    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden">
+    <main className="w-full min-h-screen bg-white overflow-x-hidden">
       <Menu {...desinsectisationContent} backgroundImage="/desinsectisation.png" />
     </main>
   );

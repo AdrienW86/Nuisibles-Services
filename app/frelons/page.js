@@ -1,4 +1,4 @@
-import Menu from '@/components/Menu/Menu';
+import Menu from '@/components/Menu';
 
 export const metadata = {
   title: "Destruction de nids de guêpes et frelons à Perpignan - Nuisibles Services",
@@ -41,9 +41,8 @@ const guepesContent = {
 
 export default function Page() {
   return (
-    // pt-20 : pousse le contenu vers le bas pour ne pas qu'il soit masqué par le Header
-    // min-h-screen : garantit que la page prend toute la hauteur nécessaire à l'écran
-    <main className="w-full min-h-screen bg-white pt-20 overflow-x-hidden"> 
+   
+    <main className="w-full min-h-screen bg-white overflow-x-hidden"> 
       <Menu {...guepesContent} backgroundImage="/frelons.jpg" />
     </main>
   );

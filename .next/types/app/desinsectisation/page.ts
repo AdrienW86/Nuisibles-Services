@@ -1,4 +1,4 @@
-// File: /Users/codev/Nuisibles-Services/app/desinsectisation/page.js
+// File: /Users/codev/Sites Web/Nuisibles/Nuisibles-Services/app/desinsectisation/page.js
 import * as entry from '../../../../app/desinsectisation/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
