@@ -3,6 +3,6 @@
   "/pictures/page": "app/pictures/page.js",
   "/api/contact/route": "app/api/contact/route.js",
   "/desinsectisation/page": "app/desinsectisation/page.js",
-  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/reseaux-sociaux/page": "app/reseaux-sociaux/page.js",
   "/contact/page": "app/contact/page.js"
 }
